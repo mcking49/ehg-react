@@ -2,11 +2,8 @@ import React from 'react';
 import './Pixel.css';
 
 const Pixel = ({
-  red,
-  green,
-  blue,
+  backgroundColor
 }) => {
-  const backgroundColor = `rgb(${red}, ${green}, ${blue})`;
   return <div className="Pixel" style={{backgroundColor}}></div>
 }
 

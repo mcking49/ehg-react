@@ -1,0 +1,25 @@
+.Artboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Artboard .Row {
+  display: flex;
+}
+
+.Artboard button {
+  margin-top: 24px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(108, 160, 224);
+  outline: none;
+  transition: background-color 0.1s ease;
+}
+
+button:hover {
+  background-color: rgba(108, 160, 224, 0.7);
+  cursor: pointer;
+}
